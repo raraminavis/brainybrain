@@ -18,7 +18,7 @@ function ax = plotRaster(spikeTimesList, varargin)
 %       spikes = {[0.1, 0.3], [0.2, 0.5, 0.7], [0.15, 0.4]};
 %       plotRaster(spikes);
 %
-%   Following Neural Data Science (Eric Lee Nylen)
+%   Following Neural Data Science (Eric Lee Neu)
 
     % Parse inputs
     p = inputParser;

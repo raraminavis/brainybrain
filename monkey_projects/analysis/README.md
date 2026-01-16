@@ -91,7 +91,7 @@ Document your experimental protocols here:
 ## References
 
 Key papers and resources for monkey electrophysiology:
-- Neural Data Science (Eric Lee Nylen)
+- Neural Data Science (Eric Lee Neu)
 - Standard analysis pipelines for your recording system
 - Task-specific analysis methods
 

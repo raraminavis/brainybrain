@@ -1,7 +1,7 @@
 """
 Utility functions for loading and preprocessing neural data.
 
-Following conventions from Neural Data Science (Eric Lee Nylen)
+Following conventions from Neural Data Science (Eric Lee Neu)
 """
 
 import numpy as np
@@ -21,9 +21,26 @@ def load_spike_times(filepath: str) -> np.ndarray:
     -------
     np.ndarray
         Array of spike times in seconds
+        
+    Examples
+    --------
+    For .npy files:
+    >>> spike_times = np.load('spikes.npy')
+    
+    For .mat files:
+    >>> from scipy.io import loadmat
+    >>> data = loadmat('spikes.mat')
+    >>> spike_times = data['spike_times'].flatten()
+    
+    For .txt files:
+    >>> spike_times = np.loadtxt('spikes.txt')
+    
+    Notes
+    -----
+    Actual implementation depends on data format (.mat, .npy, .nex, etc.)
+    Customize this function for your specific data format.
     """
     # Placeholder implementation
-    # Actual implementation depends on data format (.mat, .npy, .nex, etc.)
     raise NotImplementedError("Implement based on your data format")
 
 

@@ -16,7 +16,7 @@ function smoothedRate = smoothFiringRate(firingRate, windowSize, method)
 %       fr = rand(1, 100) * 50;
 %       smoothed = smoothFiringRate(fr, 5, 'gaussian');
 %
-%   Following Neural Data Science (Eric Lee Nylen)
+%   Following Neural Data Science (Eric Lee Neu)
 
     if nargin < 2 || isempty(windowSize)
         windowSize = 10;

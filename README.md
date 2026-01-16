@@ -1,12 +1,12 @@
 # BrainyBrain - Neural Data Science
 
-A repository for neuroscience data analysis using Matlab and Python, following the "Neural Data Science" book by Eric Lee Nylen.
+A repository for neuroscience data analysis using Matlab and Python, following the "Neural Data Science" book by Eric Lee Neu.
 
 ## Overview
 
 This repository contains code and analysis tools for neuroscience research, with a focus on:
 - Neural data analysis using Matlab and Python
-- Following concepts from "Neural Data Science (Eric Lee Nylen)" book
+- Following concepts from "Neural Data Science (Eric Lee Neu)" book
 - Monkey electrophysiology projects
 
 ## Repository Structure
@@ -78,7 +78,7 @@ Recommended Matlab toolboxes:
 
 ## Neural Data Science Book
 
-This repository follows concepts and examples from "Neural Data Science" by Eric Lee Nylen. The book covers:
+This repository follows concepts and examples from "Neural Data Science" by Eric Lee Neu. The book covers:
 - Fundamentals of neural data analysis
 - Signal processing techniques
 - Spike train analysis

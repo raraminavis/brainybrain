@@ -17,7 +17,7 @@ function [times, firingRate] = computeFiringRate(spikeTimes, binSize, timeRange)
 %       spikeTimes = [0.1, 0.3, 0.5, 0.7, 1.2];
 %       [t, fr] = computeFiringRate(spikeTimes, 0.1);
 %
-%   Following Neural Data Science (Eric Lee Nylen)
+%   Following Neural Data Science (Eric Lee Neu)
 
     if nargin < 2 || isempty(binSize)
         binSize = 0.01;  % Default 10ms bins

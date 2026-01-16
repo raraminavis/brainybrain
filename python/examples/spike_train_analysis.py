@@ -2,7 +2,7 @@
 Example: Basic spike train analysis
 
 This example demonstrates basic spike train analysis following
-concepts from Neural Data Science (Eric Lee Nylen).
+concepts from Neural Data Science (Eric Lee Neu).
 """
 
 import numpy as np

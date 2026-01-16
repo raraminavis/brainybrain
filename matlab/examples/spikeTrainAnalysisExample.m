@@ -1,7 +1,7 @@
 % Example: Basic Spike Train Analysis in Matlab
 %
 % This example demonstrates basic spike train analysis following
-% concepts from Neural Data Science (Eric Lee Nylen).
+% concepts from Neural Data Science (Eric Lee Neu).
 %
 % Add the utils directory to path before running:
 %   addpath('../utils');

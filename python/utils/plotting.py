@@ -1,7 +1,7 @@
 """
 Visualization utilities for neural data.
 
-Following conventions from Neural Data Science (Eric Lee Nylen)
+Following conventions from Neural Data Science (Eric Lee Neu)
 """
 
 import numpy as np

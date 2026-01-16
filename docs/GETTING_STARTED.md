@@ -135,7 +135,7 @@ You may need to customize the loading functions for your specific format.
 
 ## Following the Book
 
-This repository follows concepts from "Neural Data Science" by Eric Lee Nylen:
+This repository follows concepts from "Neural Data Science" by Eric Lee Neu:
 
 1. **Chapters 1-3**: Start with `notebooks/01_spike_train_analysis.ipynb`
 2. **Spike Analysis**: Use utilities in `python/utils/data_utils.py` or `matlab/utils/`
@@ -181,7 +181,7 @@ run('matlab/setup_matlab_path.m')
 
 ## Resources
 
-- **Neural Data Science Book**: Eric Lee Nylen
+- **Neural Data Science Book**: Eric Lee Neu
 - **Neo Documentation**: https://neo.readthedocs.io/
 - **Elephant Documentation**: https://elephant.readthedocs.io/
 - **Scipy Signal Processing**: https://docs.scipy.org/doc/scipy/reference/signal.html
