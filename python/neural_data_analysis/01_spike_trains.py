@@ -203,7 +203,7 @@ axes2[1, 0].set_title(f'ISI Distribution (Neuron 1, CV={cv_isi:.2f})')
 axes2[1, 0].grid(True, alpha=0.3)
 
 # Correlation matrix
-im = axes2[1, 1].imshow(corr_matrix, cmap='jet', vmin=-1, vmax=1, aspect='auto')
+im = axes2[1, 1].imshow(corr_matrix, cmap='viridis', vmin=-1, vmax=1, aspect='auto')  # Use perceptually uniform colormap
 plt.colorbar(im, ax=axes2[1, 1])
 axes2[1, 1].set_xlabel('Neuron #')
 axes2[1, 1].set_ylabel('Neuron #')

@@ -69,8 +69,12 @@ spike_times_eif = [];
 
 % Simulate EIF
 for i = 1:n_steps-1
-    % Exponential term
-    exp_term = Delta_T * exp((V_eif(i) - V_T) / Delta_T);
+    % Exponential term with numerical stability
+    if V_eif(i) - V_T < 10 * Delta_T  % Prevent overflow
+        exp_term = Delta_T * exp((V_eif(i) - V_T) / Delta_T);
+    else
+        exp_term = Delta_T * exp(10);  % Cap at reasonable value
+    end
     
     % Integrate
     dV = (-(V_eif(i) - V_rest) + exp_term + R_m * I_input(i)) / tau_m;

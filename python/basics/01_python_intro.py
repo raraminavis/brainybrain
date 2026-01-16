@@ -92,7 +92,7 @@ axes[1].set_title('Spike Raster Plot')
 axes[1].grid(True)
 
 # Subplot 3: Population activity heatmap
-im = axes[2].imshow(neural_activity, aspect='auto', cmap='jet')
+im = axes[2].imshow(neural_activity, aspect='auto', cmap='viridis')  # Use perceptually uniform colormap
 plt.colorbar(im, ax=axes[2])
 axes[2].set_xlabel('Time Points')
 axes[2].set_ylabel('Neuron #')

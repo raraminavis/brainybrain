@@ -219,7 +219,7 @@ grid on;
 subplot(2,2,4);
 imagesc(corr_matrix);
 colorbar;
-colormap('jet');
+colormap('parula'); % Use perceptually uniform colormap
 xlabel('Neuron #');
 ylabel('Neuron #');
 title('Spike Count Correlation Matrix');

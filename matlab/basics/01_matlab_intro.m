@@ -100,7 +100,7 @@ colorbar;
 xlabel('Time Points');
 ylabel('Neuron #');
 title('Population Neural Activity');
-colormap('jet');
+colormap('parula'); % Use perceptually uniform colormap
 
 fprintf('Figures created!\n\n');
 
