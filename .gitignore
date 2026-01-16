@@ -1,0 +1,54 @@
+# Python byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# MATLAB temporary files
+*.asv
+*.m~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Data files (large files should not be committed)
+*.npy
+*.npz
+*.h5
+*.hdf5
+datasets/*.mat
+datasets/*.csv
+
+# Figure outputs
+*.png
+*.jpg
+*.pdf
+*.eps
+*.fig
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
