@@ -44,6 +44,11 @@ slprj/
 *.h5
 *.hdf5
 
+# Generated plots and figures from examples
+**/examples/**/*.png
+**/examples/**/*.jpg
+**/examples/**/*.pdf
+
 # Exceptions for example data
 !**/examples/**/*.mat
 !**/examples/**/*.npy
